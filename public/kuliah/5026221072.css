@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+}
+  
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #8245c7;
+    width: 100%;
+    overflow-x: hidden;
+    color: white;
+}
+  
+.logo {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    display: block;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 30px;
+}
+  
+h4 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+p {
+    text-align: center;
+}
+  
+.chatime-links {
+    background-color: #8245c7;
+    width: 650px;
+    cursor: pointer;
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    position: relative;
+    height: auto;
+    margin-bottom: 16px;
+}
+  
+.chatime-links:hover {
+    background-color: #B296C8;
+    color: #8245c7;
+}
+  
+.link-container {
+    margin-top: 20px;
+}
+  
+.link-container:hover {
+    color: #8245c7;
+}
+  
+.chatime-buttons {
+    color: white;
+}
+  
+.chatime-buttons:hover {
+    color: #8245c7;
+}

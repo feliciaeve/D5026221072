@@ -1,0 +1,22 @@
+h3 {
+    color: hsl(122, 100%, 50%);
+}
+
+p {
+    color: blueviolet;
+    text-align: justify;
+}
+
+body{
+    background: purple;
+}
+
+.ratakanan {
+    text-align: right;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.kotaku1 {
+    border-style: solid;
+}
