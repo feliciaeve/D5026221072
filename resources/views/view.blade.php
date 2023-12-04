@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card" style="width:400px">
-                        <img class="card-img-top" src="{{ asset('./image/marklee.jpeg') }}" alt="Card image">
+                        <img class="card-img-top" src="{{ asset('./image/marklee.jpg') }}" alt="Card image">
                         <div class="card-body text-center">
                             <h4 class="card-title">{{ $p->pegawai_nama }}</h4>
                         </div>
