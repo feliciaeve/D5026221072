@@ -91,3 +91,11 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+// Route CRUD untuk Latihan tanggal 04/12/2023
+Route::get('/nilaikuliah', 'App\Http\Controllers\NilaiKuliahController@index');
+
+// add
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiKuliahController@tambah');
+
+Route::post('/nilaikuliah/store', 'App\Http\Controllers\NilaiKuliahController@store');
