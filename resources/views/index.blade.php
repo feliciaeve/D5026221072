@@ -2,13 +2,11 @@
 @section('title', 'Database Pegawai')
 
 @section('judul_halaman')
-    <h2>www.malasngoding.com</h2>
-	<h3>Data Pegawai</h3>
-
-	<a href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
-
-	<br/>
-	<br/>
+    <div class="container pt-4">
+        <h3>Data Pegawai</h3>
+        <a class="btn btn-warning" href="/pegawai">Home</a>
+        <a class="btn btn-primary" href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
+    </div>
 @endsection
 
 @section('konten')

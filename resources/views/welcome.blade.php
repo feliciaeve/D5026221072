@@ -55,7 +55,18 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Sistem Informasi ITS
+                                    <a href="blog">Blog</a><br>
+                                    <a href="berita">Berita</a><br>
+                                    <a href="hello">Hello</a><br>
+                                    <a href="badges">Badges</a><br>
+                                    <a href="welcome">Welcome</a><br>
+                                    <a href="js1">JS1</a><br>
+                                    <a href="js2">JS2</a><br>
+                                    <a href="validasi1">Validasi 1</a><br>
+                                    <a href="latihan1">Latihan 1</a><br>
+                                    <a href="5026221072">Linktree</a><br>
+                                    <a href="ets">ETS</a><br>
+                                    <a href="pegawai">Pegawai</a>
                                     <br>
                                     <?php echo date("D d M Y") ; ?>
                                 </div>
