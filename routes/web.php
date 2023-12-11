@@ -126,3 +126,10 @@ Route::post('/baju/update', 'App\Http\Controllers\BajuController@update');
 Route::get('/baju/hapus/{id}', 'App\Http\Controllers\BajuController@hapus');
 Route::get('/baju/cari', 'App\Http\Controllers\BajuController@cari');
 Route::get('/baju/view/{id}', 'App\Http\Controllers\BajuController@view');
+
+// Route mahasiswa (EAS)
+Route::get('/mahasiswa', 'App\Http\Controllers\MahasiswaController@index');
+Route::get('/mahasiswa/edit/{NRP}', 'App\Http\Controllers\MahasiswaController@edit');
+Route::post('/mahasiswa/update', 'App\Http\Controllers\MahasiswaController@update');
+Route::get('/mahasiswa/cari', 'App\Http\Controllers\MahasiswaController@cari');
+Route::get('/mahasiswa/view/{NRP}', 'App\Http\Controllers\MahasiswaController@view');
